@@ -1,0 +1,56 @@
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# Archivos de sistema operativo
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code / IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Build / distribución
+# =========================
+dist/
+build/
+
+# =========================
+# Caché
+# =========================
+.cache/
+.npm/
+
+# =========================
+# Coverage / testing
+# =========================
+coverage/
+
+# =========================
+# Apollo / GraphQL temporales
+# =========================
+.env.apollo
